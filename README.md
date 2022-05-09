@@ -1,3 +1,11 @@
+# lavish_react_responcive # 
+My version of https://www.youtube.com/watch?v=3nLTB_E6XAM&ab_channel=BrianDesign things i am using in project:
+
+* React.js
+* React-router
+* React-icons
+* SCSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
