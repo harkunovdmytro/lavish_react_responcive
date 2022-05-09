@@ -1,4 +1,4 @@
-#lavish_react_responcive
+# lavish_react_responcive
 
 My version of https://www.youtube.com/watch?v=3nLTB_E6XAM&ab_channel=BrianDesign
 
