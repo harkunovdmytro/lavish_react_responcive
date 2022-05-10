@@ -1,10 +1,10 @@
 import './NavBar.scss'
 import {Link} from "react-router-dom";
+import {IconContext} from 'react-icons/lib';
 import {MdFingerprint} from 'react-icons/md'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {useState} from "react";
 import Button from './Button.jsx'
-import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -22,21 +22,20 @@ function Navbar() {
     };
 
 
-        window.addEventListener('resize', showButton);
-
+    window.addEventListener('resize', showButton);
 
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#fff' }}>
+            <IconContext.Provider value={{color: '#fff'}}>
                 <nav className='navbar'>
                     <div className='navbar-container container'>
                         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                            <MdFingerprint className='navbar-icon' />
+                            <MdFingerprint className='navbar-icon'/>
                             LAVISH
                         </Link>
                         <div className='menu-icon' onClick={handleClick}>
-                            {click ? <FaTimes /> : <FaBars />}
+                            {click ? <FaTimes/> : <FaBars/>}
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className='nav-item'>

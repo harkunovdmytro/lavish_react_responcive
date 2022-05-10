@@ -1,10 +1,15 @@
-import {homeObjOne} from './Data'
+import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour} from './Data'
 import HeroSection from "../../HeroSection";
 
 const Home = () => {
 
     return (
-        <HeroSection {...homeObjOne} />
+        <>
+            <HeroSection {...homeObjOne} />
+            <HeroSection {...homeObjTwo} />
+            <HeroSection {...homeObjThree} />
+            <HeroSection {...homeObjFour} />
+        </>
     )
 }
 
