@@ -1,6 +1,6 @@
 import './Button.scss'
 
-const STYLES = ['btn--primary', 'btn--outline']
+const STYLES = ['btn--primary', 'btn--outline', 'btn-link']
 const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide']
 const COLORS = ['primary', 'blue', 'red', 'green']
 
